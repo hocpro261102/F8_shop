@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin:0;
     box-sizing: border-box;
 }
 
@@ -17,76 +17,65 @@ html{
     background-color: black;
 }
 
-#nav .supnav{
-    list-style-type: none;
+#nav > li{
+    display: inline-block;
 }
 
 #nav li{
+    
     position: relative;
-     
-
-}
-#nav > li{
-    display: inline-block;
-    
-    
 }
 
 #nav > li > a{
-    color: white;
+    color:white ;
     text-transform: uppercase;
-    
-    
-    
-}
-
-#nav li a{
-    
-    text-decoration: none;
-    line-height: 46px;
-    padding: 0 24px;
-    display: block;
-}
-
-#nav > li:hover > a{}
-.supnav li:hover a{
-    background-color: #ccc;
-    color: black;
-    
-    
-
-}
-#nav > li:hover > .supnav{
-    display: block;
 }
 
 #nav .supnav a{
     color: black;
-    padding: 0 12px;
-    line-height: 38px;
+    padding: 0 12px ;
+    line-height: 36px;
 }
 
 
-  
+
+
+#nav  li a {
+    
+    text-decoration: none;
+    padding: 0 24px;    
+    display: block;
+    line-height:46px ;
+    
+}
+
+#nav > li:hover > a,
+.supnav li:hover a{
+    background-color: #ccc;
+    color: black;
+    
+}
+
+#nav > li:hover > .supnav{
+    display: block;
+}
+
 
 
 #nav .supnav{
     display: none;
     position: absolute;
     background-color: white;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba( 0 , 0 , 0 , 0.5);
     min-width: 160px;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-    
+
+
 }
 
-
-    
-
-
-
 #slider{
-height: 500px;
-background-color: violet;
+    height: 500px;
+    background-color: burlywood;
 }
 
 #content{
