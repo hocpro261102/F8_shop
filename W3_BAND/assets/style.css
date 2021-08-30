@@ -12,6 +12,10 @@ html{
 
 }
 
+#nav{
+    display: inline-block;
+}
+
 #header{
     height: 46px;
     background-color: black;
@@ -65,6 +69,30 @@ html{
     padding: 0 12px;
     line-height: 38px;
 }
+
+#nav .ti-angle-down{
+    font-size: 12px;
+}   
+
+#header .search-btn:hover{
+    background-color:#f44336;
+    cursor: pointer;
+}   
+
+#header .search-btn{
+    float: right;
+    line-height: 46px;
+    padding: 0 21px ;
+    
+}
+
+#header .ti-search{
+    color: white;
+    font-size: 16px;
+}
+
+
+
 
 
   
