@@ -17,7 +17,7 @@ html{
     background-color: black;
 }
 
-#nav .supnav{
+#nav, .supnav{
     list-style-type: none;
 }
 
@@ -48,7 +48,7 @@ html{
     display: block;
 }
 
-#nav > li:hover > a{}
+#nav > li:hover > a,
 .supnav li:hover a{
     background-color: #ccc;
     color: black;
